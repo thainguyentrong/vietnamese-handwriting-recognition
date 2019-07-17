@@ -12,4 +12,4 @@ The model consists of 5 CNN layers, 2 RNN (Bi-LSTM) layers and the CTC loss and 
 
 Highest accuracy achieved is 0.87 in test set and positive recognition result
 
-![recognited](./doc/recognited.png)
+![plot](./doc/plot.png) ![recognited](./doc/recognited.png)
