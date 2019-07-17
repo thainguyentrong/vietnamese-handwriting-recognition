@@ -10,6 +10,13 @@ The model consists of 5 CNN layers, 2 RNN (Bi-LSTM) layers and the CTC loss and 
 * The CTC layer either calculates the loss value given the matrix and the ground truth text (when training), or it decodes the matrix to the final text with beam search decoding
 * Batch size is set to 64
 
-Highest accuracy achieved is 0.87 in test set and positive recognition result
+Highest accuracy achieved is 0.87 and character error rate is 0.56 in test set and positive recognition result
 
 ![plot](./doc/plot.png) ![recognited](./doc/recognited.png)
+
+## Improve accuracy
+Here are some ideas how to improve it:
+* Increase input size.
+* Add more CNN layers or use transfer learning on CNN.
+* Replace Bi-LSTM by 2D-LSTM.
+* Decoder: use token passing or word beam search decoding (see [CTCWordBeamSearch](https://repositum.tuwien.ac.at/obvutwoa/content/titleinfo/2774578)) to constrain the output to dictionary words.
