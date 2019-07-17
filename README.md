@@ -12,7 +12,9 @@ The model consists of 5 CNN layers, 2 RNN (Bi-LSTM) layers and the CTC loss and 
 
 Highest accuracy achieved is 0.87 and character error rate is 0.56 in testset (the dataset is split into 95% of the samples used for training and 5% for testing as defined in the class DataLoader) and positive recognition result:
 
-![plot](./doc/plot.png) ![recognited](./doc/recognited.png)
+![plot](./doc/plot.png) 
+
+![recognited](./doc/recognited.png)
 
 ## Improve accuracy
 Here are some ideas how to improve it:
@@ -20,3 +22,6 @@ Here are some ideas how to improve it:
 * Add more CNN layers or use transfer learning on CNN.
 * Replace Bi-LSTM by 2D-LSTM.
 * Decoder: use word beam search decoding (see [CTCWordBeamSearch](https://repositum.tuwien.ac.at/obvutwoa/content/titleinfo/2774578)).
+
+## References
+[1] [An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition](https://arxiv.org/pdf/1507.05717.pdf)
