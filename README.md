@@ -1,4 +1,4 @@
-## Preprocess images
+## Preprocess image
 I used a word-segmentation algorithm like the one proposed by [R. Manmatha and N. Srimal](http://ciir.cs.umass.edu/pubfiles/mm-27.pdf). The algorithm takes an image as input and outputs the segmented words.
 
 ![segmented](./doc/segmented.png)
