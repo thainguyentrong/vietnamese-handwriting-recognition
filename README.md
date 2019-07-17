@@ -1,6 +1,6 @@
 ## Preprocess images
 I used a word-segmentation algorithm like the one proposed by [R. Manmatha and N. Srimal](http://ciir.cs.umass.edu/pubfiles/mm-27.pdf). The algorithm takes an image as input and outputs the segmented words.
-![segmented](./doc/segmented.png)
+# ![segmented](./doc/segmented.png)
 ## Information about model
 The model consists of 5 CNN layers, 2 RNN (Bi-LSTM) layers and the CTC loss and decoding layer and can handle a full page of text image
 * The input image is a gray-value image and has a size of 128x32
