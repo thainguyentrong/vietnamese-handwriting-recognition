@@ -1,2 +1,2 @@
-# vietnamese-handwriting-recognition
+# Vietnamese Handwriting Recognition
 Word-level Handwritten Text Recognition system using TensorFlow
