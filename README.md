@@ -1,5 +1,5 @@
+## Preprocess images
 ## Information about model
-### Overview
 The model consists of 5 CNN layers, 2 RNN (Bi-LSTM) layers and the CTC loss and decoding layer and can handle a full page of text image
 * The input image is a gray-value image and has a size of 128x32
 * 5 CNN layers map the input image to a feature sequence of size 32x256
