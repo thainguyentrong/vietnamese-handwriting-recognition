@@ -10,7 +10,7 @@ The model consists of 5 CNN layers, 2 RNN (Bi-LSTM) layers and the CTC loss and 
 * The CTC layer either calculates the loss value given the matrix and the ground truth text (when training), or it decodes the matrix to the final text with beam search decoding.
 * Batch size is set to 64.
 
-Highest accuracy achieved is 0.87 and character error rate is 0.56 in testset (the dataset is split into 95% of the samples used for training and 5% for testing as defined in the class DataLoader) and positive recognition result:
+Highest accuracy achieved is 0.87 and character error rate is 0.056 in testset (the dataset is split into 95% of the samples used for training and 5% for testing as defined in the class DataLoader) and positive recognition result:
 
 ![plot](./doc/plot.png) 
 
